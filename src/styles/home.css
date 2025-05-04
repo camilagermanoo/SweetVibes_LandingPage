@@ -48,3 +48,21 @@
     border-radius: 12px;
     color: #1d1d1d;
 }
+
+@media screen and (max-width: 1170px) {
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #cta {
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px ) {
+    #phone_button {
+        display: none;
+    }
+}

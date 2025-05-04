@@ -68,3 +68,25 @@ section {
     height: 450px;
     width: 450px;
 }
+
+@media (max-width: 500px) {
+    #carouselContainer {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .carousel-inner img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.section-title {
+    color: #b22d55;
+    font-size: 1.563rem;
+}
+
+.section-subtitle {
+    font-size: 2.1875rem;
+}
